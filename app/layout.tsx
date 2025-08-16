@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   title: "ShabbyMinds - AI & Web Solutions",
   description:
     "Your trusted partner for premium white label technology solutions. Transform your business with our enterprise-grade AI and web development services.",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+     icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({
